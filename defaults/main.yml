@@ -2,7 +2,7 @@
 # defaults file for nginx_backend
 # sites:
 #   example1:
-#     doc_root: /var/www/vhosts
+#     doc_root: /var/www/html/example.com
 #     server_name: example.com
 
 # Set a name for the directory holding site content e.g. files/example.com/
