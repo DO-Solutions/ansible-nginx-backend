@@ -1,6 +1,6 @@
 nginx-backend
 =========
-Configure nginx backends on a DigitalOcean Droplets that are configured to listen on the private network (eth1)
+Configure nginx backends on DigitalOcean Droplets that are configured to listen on the private network (eth1)
 
 Requirements
 ------------
