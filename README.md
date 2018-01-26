@@ -37,7 +37,7 @@ Once it's installed in your **roles** directory, you can use the following in yo
 
     - hosts: web_node
       roles:
-         - { role: nginx80-backend }
+         - { role: cmndrsp0ck.nginx80-backend }
       become: True
 
 License
