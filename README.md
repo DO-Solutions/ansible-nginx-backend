@@ -31,13 +31,14 @@ Example Playbook
 
 or
 
-    ansible-galaxy install barajasfab.nginx80-backend
+    ansible-galaxy install cmndrsp0ck.nginx80-backend
 
 Once it's installed in your **roles** directory, you can use the following in your playbook.
 
     - hosts: web_node
       roles:
          - { role: nginx80-backend }
+      become: True
 
 License
 -------
