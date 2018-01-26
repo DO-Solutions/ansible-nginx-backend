@@ -1,0 +1,23 @@
+---
+# Setting user limits
+- name: Set root limits
+  pam_limits:
+    domain: root
+    limit_item: nofile
+    limit_type: "{{ item }}"
+    value: 100000
+    backup: yes
+  with_items:
+    - hard
+    - soft
+
+- name: Set nginx limits
+  pam_limits:
+    domain: www-data
+    limit_item: nofile
+    limit_type: "{{ item }}"
+    value: 100000
+    backup: yes
+  with_items:
+    - hard
+    - soft
