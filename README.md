@@ -8,7 +8,7 @@ Be sure to place your content in a directory in the role's **files/** directory.
 
 Role Variables
 --------------
-The following dictionary can be set in either the **defaults/main.yml** or **group_vars/*group-name***.
+The following dictionary can be set in either the **defaults/main.yml** or **group_vars/*group-name*/vars.yml**.
 
 * *nginx_sync_files*: Name of the directory holding your site's content.
 * *example1*: This is used as the configuration file name used by nginx in site-{available,enabled}.
