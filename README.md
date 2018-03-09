@@ -43,4 +43,4 @@ Once it's installed in your **roles** directory, you can use the following in yo
 License
 -------
 
-GPLv3
+GPL-3.0
