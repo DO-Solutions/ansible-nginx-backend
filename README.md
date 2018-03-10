@@ -31,13 +31,13 @@ Example Playbook
 
 or
 
-    ansible-galaxy install cmndrsp0ck.ansible-nginx-backend
+    ansible-galaxy install ansible-nginx-backend
 
 Once it's installed in your **roles** directory, you can use the following in your playbook.
 
     - hosts: web_node
       roles:
-         - { role: cmndrsp0ck.ansible-nginx-backend }
+         - { role: ansible-nginx-backend }
       become: True
 
 License
