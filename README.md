@@ -29,10 +29,6 @@ Example Playbook
 
     ansible-galaxy install -r requirements.yml
 
-or
-
-    ansible-galaxy install ansible-nginx-backend
-
 Once it's installed in your **roles** directory, you can use the following in your playbook.
 
     - hosts: web_node
